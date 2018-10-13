@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plik SYSTEM "1zadanie.dtd">
+<?xml-stylesheet href="1zadanie.css"?>
+
+<plik>
+<informacje_o_pliku>
+	<autor>Dawid Pytka</autor>
+	<autor>Kamil Piątkowski</autor>
+	<data_modyfikacji>09.10.2018</data_modyfikacji>
+	<osoba_modyfikujaca>Kamil Piątkowski</osoba_modyfikujaca>
+	<opis_zawartosci>System przychodni</opis_zawartosci>
+</informacje_o_pliku>
+<wizyty>
+<wizyta numer="1" numer_id_pacjenta="1">
+			<data_wizyty>10-12-18</data_wizyty>
+			<objawy>Kaszel</objawy>
+			<rozpoznanie>Grypa</rozpoznanie>
+			<zalecenia></zalecenia>
+</wizyta>
+<wizyta numer="2" numer_id_pacjenta="2">
+			<data_wizyty>10-12-18</data_wizyty>
+			<objawy>Kaszel</objawy>
+			<rozpoznanie>Grypa</rozpoznanie>
+			<zalecenia>Rutinoskorbin</zalecenia>
+			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty>
+</wizyta>
+</wizyty>
+<karty_pacjentow>
+<karta_pacjenta numer_id="1">
+	<dane_personalne plec="M">
+		<imie>Jan</imie>
+		<nazwisko>Nowak</nazwisko>
+		<wiek>40</wiek>
+		<numer_tel>7894566123</numer_tel>
+		<numer_ubezpieczenia>123456</numer_ubezpieczenia>
+	</dane_personalne>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Łódź</miasto>
+        <kod_pocztowy>95-200</kod_pocztowy>
+        <ulica>Piotrkowska</ulica>
+		<nr_mieszkania>32</nr_mieszkania>
+    </adres>	
+		<alergie>Brak</alergie>
+		<przebyte_choroby>odra</przebyte_choroby>
+		<szczepienia>świnka, rzerzączka</szczepienia>
+		<grupa_krwi>A</grupa_krwi>
+		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="2">
+	<dane_personalne plec="M">
+		<imie>Jan</imie>
+		<nazwisko>Nowak</nazwisko>
+		<wiek>40</wiek>
+		<numer_tel>7894566123</numer_tel>
+		<numer_ubezpieczenia>123456</numer_ubezpieczenia>
+	</dane_personalne>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Łódź</miasto>
+        <kod_pocztowy>95-200</kod_pocztowy>
+        <ulica>Piotrkowska</ulica>
+		<nr_mieszkania>32</nr_mieszkania>
+    </adres>	
+		<alergie>Brak</alergie>
+		<przebyte_choroby>odra</przebyte_choroby>
+		<szczepienia>świnka, rzerzączka</szczepienia>
+		<grupa_krwi>A</grupa_krwi>
+		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+</karty_pacjentow>
+</plik>

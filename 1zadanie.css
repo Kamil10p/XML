@@ -1,0 +1,8 @@
+karta_pacjenta {display: table-row; border: solid 1px;}
+
+	karta_pacjenta > * {
+    display: table-cell;
+    padding: 5px;
+	border-left: solid black 1px;
+	}
+karty_pacjentow {display: table;border: solid 1px; }
