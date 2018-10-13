@@ -1,8 +1,38 @@
-karta_pacjenta {display: table-row; border: solid 1px;}
+*{
+	font-style: italic;
+}
+informacje_o_pliku{
+	display:block;
+	padding:10pt;
+	background:orange;
+	border: solid 2pt grey;
+}
+opis_zawartosci{
+display:block;	
+text-align:center;
+font-weight:bolder;
+font-size: 15pt;
+font-style: italic;
+font-family: tahoma;
+}
+autor::before{
+	content: "Autor: ";
+	font-style: normal;
+}
+autor::after{
+	content: "Autor: ";
+}
+przychodnia{
+	display:block;
+	padding:10pt;
+	background:orange;
+	border: solid 2pt grey;
+}
+/*karta_pacjenta {display: table-row; border: solid 1px;}
 
 	karta_pacjenta > * {
     display: table-cell;
     padding: 5px;
 	border-left: solid black 1px;
 	}
-karty_pacjentow {display: table;border: solid 1px; }
+//karty_pacjentow {display: table;border: solid 1px; }*/

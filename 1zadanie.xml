@@ -4,20 +4,22 @@
 
 <plik>
 <informacje_o_pliku>
+	<opis_zawartosci>System przychodni</opis_zawartosci>
 	<autor>Dawid Pytka</autor>
 	<autor>Kamil Piątkowski</autor>
 	<data_modyfikacji>09.10.2018</data_modyfikacji>
 	<osoba_modyfikujaca>Kamil Piątkowski</osoba_modyfikujaca>
-	<opis_zawartosci>System przychodni</opis_zawartosci>
+	
 </informacje_o_pliku>
+<przychodnia>
 <wizyty>
-<wizyta numer="1" numer_id_pacjenta="1">
+<wizyta numer="1" numer_id_pacjenta="p1">
 			<data_wizyty>10-12-18</data_wizyty>
 			<objawy>Kaszel</objawy>
 			<rozpoznanie>Grypa</rozpoznanie>
 			<zalecenia></zalecenia>
 </wizyta>
-<wizyta numer="2" numer_id_pacjenta="2">
+<wizyta numer="2" numer_id_pacjenta="p2">
 			<data_wizyty>10-12-18</data_wizyty>
 			<objawy>Kaszel</objawy>
 			<rozpoznanie>Grypa</rozpoznanie>
@@ -26,7 +28,7 @@
 </wizyta>
 </wizyty>
 <karty_pacjentow>
-<karta_pacjenta numer_id="1">
+<karta_pacjenta numer_id="p1">
 	<dane_personalne plec="M">
 		<imie>Jan</imie>
 		<nazwisko>Nowak</nazwisko>
@@ -48,7 +50,7 @@
 		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
-<karta_pacjenta numer_id="2">
+<karta_pacjenta numer_id="p2">
 	<dane_personalne plec="M">
 		<imie>Jan</imie>
 		<nazwisko>Nowak</nazwisko>
@@ -71,4 +73,5 @@
         
 </karta_pacjenta>
 </karty_pacjentow>
+</przychodnia>
 </plik>
