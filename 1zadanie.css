@@ -1,38 +1,119 @@
 *{
 	font-style: italic;
 }
+plik{
+	border: solid 4pt grey;
+}
 informacje_o_pliku{
 	display:block;
-	padding:10pt;
-	background:orange;
-	border: solid 2pt grey;
+	background:white;
+	text-align:center;
+	padding-bottom:10pt;
+	
 }
 opis_zawartosci{
 display:block;	
-text-align:center;
 font-weight:bolder;
 font-size: 15pt;
-font-style: italic;
+font-style: normal;
 font-family: tahoma;
+padding:10pt;
+background: grey;
+color: white;
+margin-bottom:10pt;
+border-bottom: solid 4pt grey;
 }
-autor::before{
-	content: "Autor: ";
+autor:first-of-type::before{
+	content: "Autorzy:\a- ";
+	white-space: pre;
 	font-style: normal;
+	font-weight:bold;
+	
+}
+autor:before{
+	content:"- ";
+	
+}
+autor:first-of-type{
+	margin-top:10pt;
+	content:"- ";
 }
 autor::after{
-	content: "Autor: ";
+	content: "\a";
+	white-space: pre;
+}
+data_modyfikacji::before{
+	content: "Ostatnia modyfikacja: ";
+	font-style: normal;
+	font-weight:bold;
+}
+data_modyfikacji::after{
+	content: " przez ";
+	font-style: italic;
 }
 przychodnia{
 	display:block;
-	padding:10pt;
-	background:orange;
-	border: solid 2pt grey;
+	background:white;
+	border-top: solid 4pt grey;
 }
-/*karta_pacjenta {display: table-row; border: solid 1px;}
+wizyty:before{
+	content:"WIZYTY";
+	display:block;	
+	text-align:center;
+	font-weight:bolder;
+	font-size: 15pt;
+	font-style: normal;
+	font-family: tahoma;
+	padding:10pt;
+	background: orange;
+	color: white;
+	border-bottom: solid 4pt grey;
+	width:100%;
+	
+}
+wizyty{
+	display:table;
+	width:100%;
+}
+wizyta{
+	display:table-row;
+	text-align:center;
+}
+
+wizyta > *{
+    display: table-cell;
+    padding: 5px;
+	border-left: solid black 1px;
+	}
+wizyta>imie:before{
+	content:"IMIĘ";
+}
+karty_pacjentow:before{
+	content:"KARTY PACJENTÓW";
+	width:100%;
+	display:block;	
+	text-align:center;
+	font-weight:bolder;
+	font-size: 15pt;
+	font-style: normal;
+	font-family: tahoma;
+	padding:10pt;
+	background: orange;
+	color: white;
+	border-bottom: solid 4pt grey;
+	border-top: solid 4pt grey;
+}
+karty_pacjentow{
+	display:table;
+	width:100%;
+}
 
 	karta_pacjenta > * {
     display: table-cell;
     padding: 5px;
 	border-left: solid black 1px;
 	}
-//karty_pacjentow {display: table;border: solid 1px; }*/
+	karta_pacjenta{
+	display: table-row;
+	text-align:center;
+	}

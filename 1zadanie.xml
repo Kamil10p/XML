@@ -4,7 +4,7 @@
 
 <plik>
 <informacje_o_pliku>
-	<opis_zawartosci>System przychodni</opis_zawartosci>
+	<opis_zawartosci>SYSTEM PRZYCHODNI</opis_zawartosci>
 	<autor>Dawid Pytka</autor>
 	<autor>Kamil Piątkowski</autor>
 	<data_modyfikacji>09.10.2018</data_modyfikacji>
@@ -17,7 +17,8 @@
 			<data_wizyty>10-12-18</data_wizyty>
 			<objawy>Kaszel</objawy>
 			<rozpoznanie>Grypa</rozpoznanie>
-			<zalecenia></zalecenia>
+			<zalecenia>fgdfg</zalecenia>
+			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="2" numer_id_pacjenta="p2">
 			<data_wizyty>10-12-18</data_wizyty>
