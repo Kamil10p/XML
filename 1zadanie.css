@@ -56,7 +56,7 @@ przychodnia{
 	background:white;
 	border-top: solid 4pt grey;
 }
-wizyty:before{
+przychodnia:before{
 	content:"WIZYTY";
 	display:block;	
 	text-align:center;
@@ -68,7 +68,6 @@ wizyty:before{
 	background: orange;
 	color: white;
 	border-bottom: solid 4pt grey;
-	width:100%;
 	
 }
 wizyty{
@@ -85,9 +84,6 @@ wizyta > *{
     padding: 5px;
 	border-left: solid black 1px;
 	}
-wizyta>imie:before{
-	content:"IMIĘ";
-}
 karty_pacjentow:before{
 	content:"KARTY PACJENTÓW";
 	width:100%;
