@@ -1,0 +1,41 @@
+<!ELEMENT plik (informacje_o_pliku,przychodnia)> 
+<!ELEMENT informacje_o_pliku (opis_zawartosci,autor+,data_modyfikacji,osoba_modyfikujaca)> 
+<!ELEMENT opis_zawartosci (#PCDATA)> 
+<!ELEMENT autor (#PCDATA)> 
+<!ELEMENT data_modyfikacji (#PCDATA)> 
+<!ELEMENT osoba_modyfikujaca (#PCDATA)> 
+<!ELEMENT przychodnia (wizyty,karty_pacjentow)
+
+ 
+<!ELEMENT wizyty (wizyta*)> 
+<!ELEMENT wizyta (data_wizyty,objawy,rozpoznanie,zalecenia,data_kolejnej_wizyty?)> 
+<!ATTLIST wizyta numer ID #REQUIRED> 
+<!ATTLIST wizyta numer_id_pacjenta IDREF #REQUIRED> 
+<!ELEMENT data_wizyty (#PCDATA)> 
+<!ELEMENT objawy (#PCDATA)> 
+<!ELEMENT rozpoznanie (#PCDATA)> 
+<!ELEMENT zalecenia (#PCDATA)> 
+<!ELEMENT data_kolejnej_wizyty (#PCDATA)> 
+ 
+ 
+<!ELEMENT karty_pacjentow (karta_pacjenta*)> 
+<!ELEMENT karta_pacjenta (dane_personalne,adres,alergie?,przebyte_choroby?,szczepienia?,grupa_krwi,przyjmowane_obecnie_leki?)> 
+<!ATTLIST karta_pacjenta numer_id ID #REQUIRED> 
+<!ELEMENT dane_personalne(imie,nazwisko,wiek,numer_tel,numer_ubezpieczenia)>
+<!ATTLIST dane_personalne plec (M|K) #REQUIRED> 
+<!ELEMENT imie (#PCDATA)> 
+<!ELEMENT nazwisko (#PCDATA)> 
+<!ELEMENT wiek (#PCDATA)> 
+<!ELEMENT numer_tel (#PCDATA)> 
+<!ELEMENT numer_ubezpieczenia(#PCDATA)> 
+<!ELEMENT adres (kraj,miasto,kod_pocztowy,ulica,nr_mieszkania)> 
+<!ELEMENT kraj (#PCDATA)> 
+<!ELEMENT miasto (#PCDATA)> 
+<!ELEMENT kod_pocztowy (#PCDATA)> 
+<!ELEMENT ulica (#PCDATA)> 
+<!ELEMENT nr_mieszkania (#PCDATA)> 
+<!ELEMENT alergie (#PCDATA)>
+<!ELEMENT przebyte_choroby (#PCDATA)> 
+<!ELEMENT szczepienia (#PCDATA)> 
+<!ELEMENT grupa_krwi (#PCDATA)> 
+<!ELEMENT przyjmowane_obecnie_leki (#PCDATA)> 
