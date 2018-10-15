@@ -36,7 +36,6 @@ autor:before{
 }
 autor:first-of-type{
 	margin-top:10pt;
-	content:"- ";
 }
 autor::after{
 	content: "\a";
@@ -84,6 +83,15 @@ wizyta > *{
     padding: 5px;
 	border-left: solid black 1px;
 	}
+wizyta::before{	
+	content:"<wizyta>
+			<data_wizyty>10-12-18</data_wizyty>
+			<objawy>Kaszel</objawy>
+			<rozpoznanie>Grypa</rozpoznanie>
+			<zalecenia>fgdfg</zalecenia>
+			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty> 
+</wizyta>";
+}
 karty_pacjentow:before{
 	content:"KARTY PACJENTÓW";
 	width:100%;
@@ -104,7 +112,7 @@ karty_pacjentow{
 	width:100%;
 }
 
-	karta_pacjenta > * {
+	karta_pacjenta > *{
     display: table-cell;
     padding: 5px;
 	border-left: solid black 1px;
