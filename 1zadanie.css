@@ -3,6 +3,7 @@
 }
 plik{
 	border: solid 4pt grey;
+	display:block;
 }
 informacje_o_pliku{
 	display:block;
@@ -83,18 +84,8 @@ wizyta > *{
     padding: 5px;
 	border-left: solid black 1px;
 	}
-wizyta::before{	
-	content:"<wizyta>
-			<data_wizyty>10-12-18</data_wizyty>
-			<objawy>Kaszel</objawy>
-			<rozpoznanie>Grypa</rozpoznanie>
-			<zalecenia>fgdfg</zalecenia>
-			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty> 
-</wizyta>";
-}
-karty_pacjentow:before{
+baza_danych:before{
 	content:"KARTY PACJENTÓW";
-	width:100%;
 	display:block;	
 	text-align:center;
 	font-weight:bolder;
@@ -121,3 +112,93 @@ karty_pacjentow{
 	display: table-row;
 	text-align:center;
 	}
+wizyta:first-child>*:nth-child(1):before{
+	display: block;
+	content:"Data wizyty";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+wizyta:first-child>*:nth-child(2):before{
+	display: block;
+	content:"Objawy";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+wizyta:first-child>*:nth-child(3):before{
+	display: block;
+	content:"Rozpoznanie";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+wizyta:first-child>*:nth-child(4):before{
+	display: block;
+	content:"Zalecenia";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+wizyta:first-child>*:nth-child(5):before{
+	display: block;
+	content:"Data kolejnej wizyty";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(1):before{
+	display: block;
+	content:"Numer ubezpieczenia";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(2):before{
+	display: block;
+	content:"Nazwisko i imię";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(3):before{
+	display: block;
+	content:"Wiek";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(4):before{
+	display: block;
+	content:"Numer telefonu";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(5):before{
+	display: block;
+	content:"Adres";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(6):before{
+	display: block;
+	content:"Alergie";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(7):before{
+	display: block;
+	content:"Przebyte choroby";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(8):before{
+	display: block;
+	content:"Szczepienia";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(9):before{
+	display: block;
+	content:"Grupa krwi";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}
+karta_pacjenta:first-child>*:nth-child(10):before{
+	display: block;
+	content:"Przyjmowane leki";
+	margin-bottom:7pt;
+	border-bottom:solid black 1px;
+}

@@ -28,6 +28,7 @@
 			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty>
 </wizyta>
 </wizyty>
+<baza_danych>
 <karty_pacjentow>
 <karta_pacjenta numer_id="p1">
 	<numer_ubezpieczenia>123456</numer_ubezpieczenia>
@@ -74,5 +75,6 @@
         
 </karta_pacjenta>
 </karty_pacjentow>
+</baza_danych>
 </przychodnia>
 </plik>

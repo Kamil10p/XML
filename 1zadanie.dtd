@@ -24,7 +24,7 @@
 <!ELEMENT numer_ubezpieczenia(#PCDATA)> 
 <!ELEMENT dane_personalne(imie,nazwisko)>
 <!ATTLIST dane_personalne plec (M|K) #REQUIRED> 
-<!ELEMENT imie (#PCDATA)> 
+<!ELEMENT imie (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)> 
 <!ELEMENT wiek (#PCDATA)>
 <!ELEMENT numer_tel(#PCDATA)>
