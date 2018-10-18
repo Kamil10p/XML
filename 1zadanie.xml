@@ -14,19 +14,174 @@
 <przychodnia>
 <wizyty>
 <wizyta numer="1" numer_id_pacjenta="p1">
-			<data_wizyty>10-12-18</data_wizyty>
-			<objawy>Kaszel</objawy>
+			<data_wizyty>01-10-2018</data_wizyty>
+			<objawy>gorączka,katar,osłabienie</objawy>
 			<rozpoznanie>Grypa</rozpoznanie>
-			<zalecenia>fgdfg</zalecenia>
-			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty>
+			<zalecenia>witamina C, zwolnienie lekarskie z pracy,ambrosol</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="2" numer_id_pacjenta="p2">
-			<data_wizyty>10-12-18</data_wizyty>
-			<objawy>Kaszel</objawy>
-			<rozpoznanie>Grypa</rozpoznanie>
-			<zalecenia>Rutinoskorbin</zalecenia>
-			<data_kolejnej_wizyty>20-12-18</data_kolejnej_wizyty>
+			<data_wizyty>1-10-2018</data_wizyty>
+			<objawy>ból w prawy oku, osłabione widzenie</objawy>
+			<rozpoznanie>jęczmień pod okiem</rozpoznanie>
+			<zalecenia>okłady z ziela świetlika 3 razy dziennie</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
+<wizyta numer="3" numer_id_pacjenta="p3">
+			<data_wizyty>01-10-2018</data_wizyty>
+			<objawy>ból ucha, wysoka gorączka</objawy>
+			<rozpoznanie>czyrak prawego ucha</rozpoznanie>
+			<zalecenia>okłady ichtiolowe, antybiotyk flukloksacyklina 2 razy dziennie po 1 tabletce</zalecenia>
+			<data_kolejnej_wizyty>20-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="4" numer_id_pacjenta="p4">
+			<data_wizyty>02-10-2018</data_wizyty>
+			<objawy>duszność, sinica, przyśpieszony i spłycony oddech, apatia</objawy>
+			<rozpoznanie>gruźlica prosówkowa</rozpoznanie>
+			<zalecenia>Pyrazynamid doustnie 2 tabletki dziennie po jedzeniu, dużo odpoczynku</zalecenia>
+			<data_kolejnej_wizyty>04-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="5" numer_id_pacjenta="p5">
+			<data_wizyty>02-10-2018</data_wizyty>
+			<objawy>swędznie skóry głowy, poruszanie się czegoś po włosach</objawy>
+			<rozpoznanie>wszy</rozpoznanie>
+			<zalecenia>szampon Seboradin Med 2 razy dziennie </zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="6" numer_id_pacjenta="p6">
+			<data_wizyty>03-10-2018</data_wizyty>
+			<objawy>ostry ból gardła, gorączka, powiększone migdałki</objawy>
+			<rozpoznanie>angina</rozpoznanie>
+			<zalecenia>Augmentin dwa razy dziennie po 1 tabletce </zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="7" numer_id_pacjenta="p2">
+			<data_wizyty>15-10-2018</data_wizyty>
+			<objawy>nienaturalny kształt kości piszczelowej, ból przy próbie poruszania nogą</objawy>
+			<rozpoznanie>złamanie kości piszczelowej</rozpoznanie>
+			<zalecenia>gips przez 3 tygodnie, leki przeciwbólowe </zalecenia>
+			<data_kolejnej_wizyty>07-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="8" numer_id_pacjenta="p4">
+			<data_wizyty>16-10-2018</data_wizyty>
+			<objawy>wysypka skórna o charakterze pęcherzykowatym, uporczywy świąd, nadmierna potliwość</objawy>
+			<rozpoznanie>potnica</rozpoznanie>
+			<zalecenia>testy alergiczne </zalecenia>
+			<data_kolejnej_wizyty>16-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="9" numer_id_pacjenta="p6">
+			<data_wizyty>16-10-2018</data_wizyty>
+			<objawy>pieczenie paznokci</objawy>
+			<rozpoznanie>grzybica paznokci</rozpoznanie>
+			<zalecenia>amorolfina miejscowo 3 razy dziennie </zalecenia>
+			<data_kolejnej_wizyty>23-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="10" numer_id_pacjenta="p1">
+			<data_wizyty>18-10-2018</data_wizyty>
+			<objawy>duszność, kołatanie serca</objawy>
+			<rozpoznanie>nadciśnienie</rozpoznanie>
+			<zalecenia> aldosteron raz dziennie 1 tabletka, zmiana stylu życia m.in rzucenie palenia papierosów</zalecenia>
+			<data_kolejnej_wizyty>18-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="11" numer_id_pacjenta="p3">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>ostry ból w nadbrzuszu, zaparcie</objawy>
+			<rozpoznanie>zapalenie wyrostka robaczkowego</rozpoznanie>
+			<zalecenia>operacja w szpitalu </zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="12" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="13" numer_id_pacjenta="p3">
+			<data_wizyty>20-10-2018</data_wizyty>
+			<objawy>zdiagnozowany dnia 01-10-2018 czyrak prawego ucha</objawy>
+			<rozpoznanie>czyrak prawego ucha</rozpoznanie>
+			<zalecenia>kontynuowanie stosowanie okładów ichtiolowych</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="14" numer_id_pacjenta="p5">
+			<data_wizyty>25-10-2018</data_wizyty>
+			<objawy>rumień na prawej nodze,ból stawów, wysypka skórna, sztywność karku</objawy>
+			<rozpoznanie>borelioza</rozpoznanie>
+			<zalecenia>antybiotyk Boreliozor przez 4 tyg, 3 tabletki dziennie</zalecenia>
+			<data_kolejnej_wizyty>25-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="15" numer_id_pacjenta="p6">
+			<data_wizyty>25-10-2018</data_wizyty>
+			<objawy>drżenie rąk, częste biegunki, bezsenność</objawy>
+			<rozpoznanie>naczynność tarczycy</rozpoznanie>
+			<zalecenia>badanie poziomu TSH we krwi</zalecenia>
+			<data_kolejnej_wizyty>03-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="16" numer_id_pacjenta="p1">
+			<data_wizyty>25-10-2018</data_wizyty>
+			<objawy>podwyższony poziom glukozy we krwi</objawy>
+			<rozpoznanie>cukrzyca</rozpoznanie>
+			<zalecenia>zastrzyki z insuliną raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="17" numer_id_pacjenta="p2">
+			<data_wizyty></data_wizyty>
+			<objawy></objawy>
+			<rozpoznanie></rozpoznanie>
+			<zalecenia></zalecenia>
+			<data_kolejnej_wizyty></data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="18" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="19" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="20" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="21" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="22" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="23" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="24" numer_id_pacjenta="p5">
+			<data_wizyty>19-10-2018</data_wizyty>
+			<objawy>często oddawanie moczu</objawy>
+			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
+			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+</wizyta>
+
 </wizyty>
 <baza_danych>
 <karty_pacjentow>
@@ -72,6 +227,94 @@
 		<szczepienia>świnka, rzerzączka</szczepienia>
 		<grupa_krwi>A</grupa_krwi>
 		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="p3">
+	<numer_ubezpieczenia>435676</numer_ubezpieczenia>
+	<dane_personalne plec="K">
+		<nazwisko>Gumowska</nazwisko>
+		<imie>Janina</imie>
+	</dane_personalne>
+	<wiek>67</wiek>
+	<numer_tel>929888232</numer_tel>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Pabianice</miasto>
+        <kod_pocztowy>90-811</kod_pocztowy>
+        <ulica>Łódzka</ulica>
+		<nr_mieszkania>12</nr_mieszkania>
+    </adres>	
+		<alergie>kurz, pyłki traw</alergie>
+		<przebyte_choroby>gruźlica, odra</przebyte_choroby>
+		<szczepienia></szczepienia>
+		<grupa_krwi>A Rh+</grupa_krwi>
+		<przyjmowane_obecnie_leki>brak</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="p4">
+	<numer_ubezpieczenia>878799911</numer_ubezpieczenia>
+	<dane_personalne plec="K">
+		<nazwisko>Gryz</nazwisko>
+		<imie>Jolanta</imie>
+	</dane_personalne>
+	<wiek>45</wiek>
+	<numer_tel>687333661</numer_tel>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Zgierz</miasto>
+        <kod_pocztowy>90-444</kod_pocztowy>
+        <ulica>Maratońska</ulica>
+		<nr_mieszkania>12</nr_mieszkania>
+    </adres>	
+		<alergie>brak</alergie>
+		<przebyte_choroby></przebyte_choroby>
+		<szczepienia>gruźlica, pneumokoki, świnka, różyczka</szczepienia>
+		<grupa_krwi>B Rh-</grupa_krwi>
+		<przyjmowane_obecnie_leki>przecizakrzepowe dabigatran</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="p5">
+	<numer_ubezpieczenia></numer_ubezpieczenia>
+	<dane_personalne plec="M">
+		<nazwisko>Sambor</nazwisko>
+		<imie>Józef</imie>
+	</dane_personalne>
+	<wiek>77</wiek>
+	<numer_tel>678987654</numer_tel>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Łódź</miasto>
+        <kod_pocztowy>90-565</kod_pocztowy>
+        <ulica>Wólczańska</ulica>
+		<nr_mieszkania>215</nr_mieszkania>
+    </adres>	
+		<alergie>orzechy</alergie>
+		<przebyte_choroby>zapalenie opon mózgowych</przebyte_choroby>
+		<szczepienia>błonnica, tężec, krztusiec</szczepienia>
+		<grupa_krwi>0 Rh-</grupa_krwi>
+		<przyjmowane_obecnie_leki>brak</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="p6">
+	<numer_ubezpieczenia></numer_ubezpieczenia>
+	<dane_personalne plec="K">
+		<nazwisko>Jabłczyńska</nazwisko>
+		<imie>Anna</imie>
+	</dane_personalne>
+	<wiek>35</wiek>
+	<numer_tel>324867548</numer_tel>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Łódź</miasto>
+        <kod_pocztowy>90-099</kod_pocztowy>
+        <ulica>Legionów Polskich</ulica>
+		<nr_mieszkania>22</nr_mieszkania>
+    </adres>	
+		<alergie>jad owadów błonkoskrzydłowych,chinina</alergie>
+		<przebyte_choroby></przebyte_choroby>
+		<szczepienia>WZW typu B, DTP,MMR</szczepienia>
+		<grupa_krwi>AB Rh+</grupa_krwi>
+		<przyjmowane_obecnie_leki>xanax</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
 </karty_pacjentow>

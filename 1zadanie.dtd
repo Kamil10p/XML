@@ -18,17 +18,17 @@
 <!ELEMENT data_kolejnej_wizyty (#PCDATA)> 
  
  
-<!ELEMENT karty_pacjentow (karta_pacjenta*)> 
-<!ELEMENT karta_pacjenta (numer_ubezpieczenia,dane_personalne,wiek,numer_tel,adres,alergie,przebyte_choroby,szczepienia,grupa_krwi,przyjmowane_obecnie_leki)> 
+<!ELEMENT baza_danych (karty_pacjentow)>
+<!ELEMENT karty_pacjentow (karta_pacjenta*)>
+<!ELEMENT karta_pacjenta (numer_ubezpieczenia,dane_personalne,wiek,numer_tel,adres,alergie,przebyte_choroby*,szczepienia?,grupa_krwi,przyjmowane_obecnie_leki*)> 
 <!ATTLIST karta_pacjenta numer_id ID #REQUIRED> 
 <!ELEMENT numer_ubezpieczenia(#PCDATA)> 
-<!ELEMENT dane_personalne(imie,nazwisko)>
+<!ELEMENT dane_personalne(nazwisko,imie+)>
 <!ATTLIST dane_personalne plec (M|K) #REQUIRED> 
-<!ELEMENT imie (#PCDATA)>
 <!ELEMENT nazwisko (#PCDATA)> 
+<!ELEMENT imie (#PCDATA)>
 <!ELEMENT wiek (#PCDATA)>
 <!ELEMENT numer_tel(#PCDATA)>
-
 
 <!ELEMENT adres (kraj,miasto,kod_pocztowy,ulica,nr_mieszkania)> 
 <!ELEMENT kraj (#PCDATA)> 
