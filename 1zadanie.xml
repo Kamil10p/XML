@@ -16,12 +16,12 @@
 <wizyta numer="1" numer_id_pacjenta="p1">
 			<data_wizyty>01-10-2018</data_wizyty>
 			<objawy>gorączka,katar,osłabienie</objawy>
-			<rozpoznanie>Grypa</rozpoznanie>
+			<rozpoznanie>grypa</rozpoznanie>
 			<zalecenia>witamina C, zwolnienie lekarskie z pracy,ambrosol</zalecenia>
 			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="2" numer_id_pacjenta="p2">
-			<data_wizyty>1-10-2018</data_wizyty>
+			<data_wizyty>01-10-2018</data_wizyty>
 			<objawy>ból w prawy oku, osłabione widzenie</objawy>
 			<rozpoznanie>jęczmień pod okiem</rozpoznanie>
 			<zalecenia>okłady z ziela świetlika 3 razy dziennie</zalecenia>
@@ -126,73 +126,73 @@
 			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="17" numer_id_pacjenta="p2">
-			<data_wizyty></data_wizyty>
-			<objawy></objawy>
-			<rozpoznanie></rozpoznanie>
-			<zalecenia></zalecenia>
-			<data_kolejnej_wizyty></data_kolejnej_wizyty>
+			<data_wizyty>25-10-2018</data_wizyty>
+			<objawy>opuchnięte oczy, światłowstręt, przekrwienie spojówkowe</objawy>
+			<rozpoznanie>zapalenie spojówek</rozpoznanie>
+			<zalecenia>przestrzegać zasad higieny, często myć dłonie, nie pocierać oczu, stosować zimne okłady</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
-<wizyta numer="18" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
+<wizyta numer="18" numer_id_pacjenta="p3">
+			<data_wizyty>26-10-2018</data_wizyty>
+			<objawy>dreszcze, niepokój, zwiotczenie mięśni, bardzo silny ból głowy</objawy>
+			<rozpoznanie>udar cieplny</rozpoznanie>
+			<zalecenia>zapewniono dostęp do chłodnego powietrza, zastosowano okłady, podano płyny dożylnie</zalecenia>
+			<data_kolejnej_wizyty>03-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="19" numer_id_pacjenta="p4">
+			<data_wizyty>27-10-2018</data_wizyty>
+			<objawy>krew i limfa wyciekające z prawej dłoni</objawy>
+			<rozpoznanie>rana cięta dłoni</rozpoznanie>
+			<zalecenia>założenie szwów</zalecenia>
+			<data_kolejnej_wizyty>07-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="20" numer_id_pacjenta="p6">
+			<data_wizyty>27-10-2018</data_wizyty>
+			<objawy>opuchnięte nogi, ból </objawy>
+			<rozpoznanie>zapalenie żył</rozpoznanie>
+			<zalecenia>Apiksaban dożylnie dwa razy dziennie</zalecenia>
+			<data_kolejnej_wizyty>09-11-2018</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="21" numer_id_pacjenta="p3">
+			<data_wizyty>04-11-2018</data_wizyty>
+			<objawy>ból pleców i kręgosłupa</objawy>
+			<rozpoznanie>reumatyzm</rozpoznanie>
+			<zalecenia>ćwiczenia podnoszące sprawność fizyczną, pobyt w sanatorium</zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
+</wizyta>
+<wizyta numer="22" numer_id_pacjenta="p2">
+			<data_wizyty>04-11-2018</data_wizyty>
+			<objawy>silny ból ucha, upośledzenie słuchu</objawy>
+			<rozpoznanie>ostre zapalenie ucha środkowego</rozpoznanie>
+			<zalecenia>skierowanie do szpitala na zabieg nacięcie błony bębenkowej</zalecenia>
 			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
 </wizyta>
-<wizyta numer="19" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+<wizyta numer="23" numer_id_pacjenta="p1">
+			<data_wizyty>10-11-2018</data_wizyty>
+			<objawy>szmery w płucach, osłabienie, silny suchy kaszel</objawy>
+			<rozpoznanie>bakteryjne zapalenie płuc</rozpoznanie>
+			<zalecenia>odpoczynek, Sarabin 2 tabletki dziennie (rano i wieczorem)</zalecenia>
+			<data_kolejnej_wizyty>14-11-2018</data_kolejnej_wizyty>
 </wizyta>
-<wizyta numer="20" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
-</wizyta>
-<wizyta numer="21" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
-</wizyta>
-<wizyta numer="22" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
-</wizyta>
-<wizyta numer="23" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
-</wizyta>
-<wizyta numer="24" numer_id_pacjenta="p5">
-			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
-			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
-			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
+<wizyta numer="24" numer_id_pacjenta="p7">
+			<data_wizyty>10-11-2018</data_wizyty>
+			<objawy>wymioty, silny ból brzucha, jadłowstręt,biegunka</objawy>
+			<rozpoznanie>zatrucie pokarmowe</rozpoznanie>
+			<zalecenia>uzupełnianie płynów,węgiel aktywny 1 tabletka 3 razy dziennie </zalecenia>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 
 </wizyty>
 <baza_danych>
 <karty_pacjentow>
 <karta_pacjenta numer_id="p1">
-	<numer_ubezpieczenia>123456</numer_ubezpieczenia>
+	<numer_ubezpieczenia>122456</numer_ubezpieczenia>
 	<dane_personalne plec="M">
 		<nazwisko>Nowak</nazwisko>
 		<imie>Jan</imie>
 	</dane_personalne>
 	<wiek>40</wiek>
-	<numer_tel>7894566123</numer_tel>
+	<numer_tel>789456123</numer_tel>
     <adres>
         <kraj>Polska</kraj>
         <miasto>Łódź</miasto>
@@ -200,32 +200,32 @@
         <ulica>Piotrkowska</ulica>
 		<nr_mieszkania>32</nr_mieszkania>
     </adres>	
-		<alergie>Brak</alergie>
+		<alergie>brak</alergie>
 		<przebyte_choroby>odra</przebyte_choroby>
 		<szczepienia>świnka, rzerzączka</szczepienia>
 		<grupa_krwi>A</grupa_krwi>
-		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
+		<przyjmowane_obecnie_leki>Accuzide</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
 <karta_pacjenta numer_id="p2">
-	<numer_ubezpieczenia>123456</numer_ubezpieczenia>
+	<numer_ubezpieczenia>133456</numer_ubezpieczenia>
 	<dane_personalne plec="M">
-		<nazwisko>Nowak</nazwisko>
-		<imie>Jan</imie>
+		<nazwisko>Kowalski</nazwisko>
+		<imie>Piotr</imie>
 	</dane_personalne>
-	<wiek>40</wiek>
-	<numer_tel>7894566123</numer_tel>
+	<wiek>23</wiek>
+	<numer_tel>785661223</numer_tel>
     <adres>
         <kraj>Polska</kraj>
         <miasto>Łódź</miasto>
         <kod_pocztowy>95-200</kod_pocztowy>
         <ulica>Piotrkowska</ulica>
-		<nr_mieszkania>32</nr_mieszkania>
+		<nr_mieszkania>56</nr_mieszkania>
     </adres>	
-		<alergie>Brak</alergie>
+		<alergie>brak</alergie>
 		<przebyte_choroby>odra</przebyte_choroby>
 		<szczepienia>świnka, rzerzączka</szczepienia>
-		<grupa_krwi>A</grupa_krwi>
+		<grupa_krwi>A Rh-</grupa_krwi>
 		<przyjmowane_obecnie_leki>Brak</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
@@ -252,7 +252,7 @@
         
 </karta_pacjenta>
 <karta_pacjenta numer_id="p4">
-	<numer_ubezpieczenia>878799911</numer_ubezpieczenia>
+	<numer_ubezpieczenia>899911</numer_ubezpieczenia>
 	<dane_personalne plec="K">
 		<nazwisko>Gryz</nazwisko>
 		<imie>Jolanta</imie>
@@ -274,7 +274,7 @@
         
 </karta_pacjenta>
 <karta_pacjenta numer_id="p5">
-	<numer_ubezpieczenia></numer_ubezpieczenia>
+	<numer_ubezpieczenia>876876</numer_ubezpieczenia>
 	<dane_personalne plec="M">
 		<nazwisko>Sambor</nazwisko>
 		<imie>Józef</imie>
@@ -296,7 +296,7 @@
         
 </karta_pacjenta>
 <karta_pacjenta numer_id="p6">
-	<numer_ubezpieczenia></numer_ubezpieczenia>
+	<numer_ubezpieczenia>098342</numer_ubezpieczenia>
 	<dane_personalne plec="K">
 		<nazwisko>Jabłczyńska</nazwisko>
 		<imie>Anna</imie>
@@ -315,6 +315,28 @@
 		<szczepienia>WZW typu B, DTP,MMR</szczepienia>
 		<grupa_krwi>AB Rh+</grupa_krwi>
 		<przyjmowane_obecnie_leki>xanax</przyjmowane_obecnie_leki>
+        
+</karta_pacjenta>
+<karta_pacjenta numer_id="p7">
+	<numer_ubezpieczenia>456789</numer_ubezpieczenia>
+	<dane_personalne plec="K">
+		<nazwisko>Narczak</nazwisko>
+		<imie>Zofia</imie>
+	</dane_personalne>
+	<wiek>42</wiek>
+	<numer_tel>324867558</numer_tel>
+    <adres>
+        <kraj>Polska</kraj>
+        <miasto>Łódź</miasto>
+        <kod_pocztowy>90-098</kod_pocztowy>
+        <ulica>Warszawska</ulica>
+		<nr_mieszkania>12</nr_mieszkania>
+    </adres>	
+		<alergie>sierść zwierząt, pyłki kwiatowe</alergie>
+		<przebyte_choroby>odra,ospa,zapalenie płuc</przebyte_choroby>
+		<szczepienia>WZW typu B,IPV,MMR,tężec</szczepienia>
+		<grupa_krwi>B Rh+</grupa_krwi>
+		<przyjmowane_obecnie_leki>allertec</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
 </karty_pacjentow>

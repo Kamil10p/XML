@@ -4,7 +4,7 @@
 <!ELEMENT autor (#PCDATA)> 
 <!ELEMENT data_modyfikacji (#PCDATA)> 
 <!ELEMENT osoba_modyfikujaca (#PCDATA)> 
-<!ELEMENT przychodnia (wizyty,karty_pacjentow)
+<!ELEMENT przychodnia (wizyty,baza_danych)
 
  
 <!ELEMENT wizyty (wizyta*)> 
