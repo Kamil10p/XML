@@ -53,8 +53,9 @@ data_modyfikacji::after{
 	font-style: italic;
 }
 przychodnia:before, baza_danych:before{
-	content:"WIZYTY";
-	display:block;	
+	display:block;
+    position:sticky;
+    top:0;
 	text-align:center;
 	font-weight:bolder;
 	font-size: 15pt;
@@ -67,6 +68,9 @@ przychodnia:before, baza_danych:before{
 	border-top: solid 4pt #29a3a3;
 	
 }
+przychodnia:before{
+	content:"WIZYTY";
+}
 baza_danych:before{
 	content:"KARTY PACJENTÓW";
 }
@@ -75,18 +79,21 @@ karty_pacjentow, wizyty{
 	width:100%;
 	line-height:1.3;
 }
-
-	karta_pacjenta > *, wizyta > *{
+data_wizyty{
+min-width:100px;
+}
+karta_pacjenta > *, wizyta > *{
     display: table-cell;
 	border-left: solid #29a3a3 2px;
-	}
-	wizyta>data_kolejnej_wizyty{
-		border-right: solid #29a3a3 2px;
-	}
-	karta_pacjenta, wizyta{
+}
+wizyta>data_kolejnej_wizyty{
+    border-right: solid #29a3a3 2px;
+}
+karta_pacjenta, wizyta{
 	display: table-row;
 	text-align:center;
-	}
+    min-height:100px;
+}
 wizyta:first-child>*:nth-child(1):before{
 	content:"Data wizyty";
 }
@@ -151,7 +158,7 @@ wizyty>*:hover, karty_pacjentow>*:hover{
 	text-shadow:0.1px 0.1px gray;
 }
 wizyty>*:first-child:before{
-	content:"ID\a\a 1";
+	content:"ID\a\a "attr(numer);
 	line-height:1.3;
 	white-space: pre;
 }
@@ -177,3 +184,4 @@ karty_pacjentow>*:before{
 	content:attr(numer_id);
 	vertical-align: bottom;
 }
+
