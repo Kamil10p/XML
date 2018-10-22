@@ -1,6 +1,50 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet href="1zadanie.css"?>
-<!DOCTYPE plik SYSTEM "1zadanie.dtd">
+<!DOCTYPE plik [
+<!ELEMENT plik (informacje_o_pliku,przychodnia)> 
+<!ELEMENT informacje_o_pliku (opis_zawartosci,autor+,data_modyfikacji,osoba_modyfikujaca)> 
+<!ELEMENT opis_zawartosci (#PCDATA)> 
+<!ELEMENT autor (#PCDATA)> 
+<!ELEMENT data_modyfikacji (#PCDATA)> 
+<!ELEMENT osoba_modyfikujaca (#PCDATA)> 
+<!ELEMENT przychodnia (wizyty,baza_danych)>
+
+ 
+<!ELEMENT wizyty (wizyta*)> 
+<!ELEMENT wizyta (data_wizyty,objawy,rozpoznanie,zalecenia,data_kolejnej_wizyty?)> 
+<!ATTLIST wizyta numer ID #REQUIRED> 
+<!ATTLIST wizyta numer_id_pacjenta IDREF #REQUIRED> 
+<!ELEMENT data_wizyty (#PCDATA)> 
+<!ELEMENT objawy (#PCDATA)> 
+<!ELEMENT rozpoznanie (#PCDATA)> 
+<!ELEMENT zalecenia (#PCDATA)> 
+<!ELEMENT data_kolejnej_wizyty (#PCDATA)> 
+ 
+ 
+<!ELEMENT baza_danych (karty_pacjentów)>
+<!ELEMENT karty_pacjentów (karta_pacjenta*)>
+<!ELEMENT karta_pacjenta (numer_ubezpieczenia,dane_personalne,wiek,numer_tel,adres,alergie,przebyte_choroby*,szczepienia?,grupa_krwi,przyjmowane_obecnie_leki*)> 
+<!ATTLIST karta_pacjenta numer_id ID #REQUIRED> 
+<!ELEMENT numer_ubezpieczenia (#PCDATA)> 
+<!ELEMENT dane_personalne (nazwisko,imię+)>
+<!ATTLIST dane_personalne płeć (M|K) #REQUIRED> 
+<!ELEMENT nazwisko (#PCDATA)> 
+<!ELEMENT imię (#PCDATA)>
+<!ELEMENT wiek (#PCDATA)>
+<!ELEMENT numer_tel (#PCDATA)>
+
+<!ELEMENT adres (kraj,miasto,kod_pocztowy,ulica,nr_mieszkania)> 
+<!ELEMENT kraj (#PCDATA)> 
+<!ELEMENT miasto (#PCDATA)> 
+<!ELEMENT kod_pocztowy (#PCDATA)> 
+<!ELEMENT ulica (#PCDATA)> 
+<!ELEMENT nr_mieszkania (#PCDATA)> 
+<!ELEMENT alergie (#PCDATA)>
+<!ELEMENT przebyte_choroby (#PCDATA)> 
+<!ELEMENT szczepienia (#PCDATA)> 
+<!ELEMENT grupa_krwi (#PCDATA)> 
+<!ELEMENT przyjmowane_obecnie_leki (#PCDATA)>
+]>
 
 <plik>
 <informacje_o_pliku>
