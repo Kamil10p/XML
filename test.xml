@@ -2,8 +2,8 @@
 <?xml-stylesheet href="1zadanie.css"?>
 <!DOCTYPE plik [
 <!ELEMENT plik (informacje_o_pliku,przychodnia)> 
-<!ELEMENT informacje_o_pliku (opis_zawartosci,autor+,data_modyfikacji,osoba_modyfikujaca)> 
-<!ELEMENT opis_zawartosci (#PCDATA)> 
+<!ELEMENT informacje_o_pliku (opis_zawartości,autor+,data_modyfikacji,osoba_modyfikujaca)> 
+<!ELEMENT opis_zawartości (#PCDATA)> 
 <!ELEMENT autor (#PCDATA)> 
 <!ELEMENT data_modyfikacji (#PCDATA)> 
 <!ELEMENT osoba_modyfikujaca (#PCDATA)> 

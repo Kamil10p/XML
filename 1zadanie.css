@@ -108,6 +108,7 @@ wizyta:first-child>*:nth-child(4):before{
 }
 wizyta:first-child>*:nth-child(5):before{
 	content:"Data kolejnej wizyty";
+	min-width: 100px;
 }
 wizyta:first-child>*:before,karta_pacjenta:first-child>*:before,wizyty>*:first-child:before,karty_pacjentów>*:first-child:before,wizyty>*:first-child:after{
 	display: block;

@@ -8,7 +8,7 @@
 	<autor>Dawid Pytka</autor>
 	<autor>Kamil Piątkowski</autor>
 	<data_modyfikacji>09.10.2018</data_modyfikacji>
-	<osoba_modyfikujaca>Kamil Piątkowski</osoba_modyfikujaca>
+	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
 	
 </informacje_o_pliku>
 <przychodnia>
@@ -43,7 +43,7 @@
 </wizyta>
 <wizyta numer="w5" numer_id_pacjenta="p5">
 			<data_wizyty>02-10-2018</data_wizyty>
-			<objawy>swędznie skóry głowy, poruszanie się czegoś po włosach</objawy>
+			<objawy>swędzenie skóry głowy, poruszanie się czegoś po włosach</objawy>
 			<rozpoznanie>wszy</rozpoznanie>
 			<zalecenia>szampon Seboradin Med 2 razy dziennie </zalecenia>
 			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
@@ -92,7 +92,7 @@
 </wizyta>
 <wizyta numer="w12" numer_id_pacjenta="p5">
 			<data_wizyty>19-10-2018</data_wizyty>
-			<objawy>często oddawanie moczu</objawy>
+			<objawy>częste oddawanie moczu</objawy>
 			<rozpoznanie>zakażenie układu moczowego</rozpoznanie>
 			<zalecenia>antybiotyk Alaks 1 tabletka raz dziennie</zalecenia>
 			<data_kolejnej_wizyty>26-10-2018</data_kolejnej_wizyty>
@@ -155,7 +155,7 @@
 </wizyta>
 <wizyta numer="w21" numer_id_pacjenta="p3">
 			<data_wizyty>04-11-2018</data_wizyty>
-			<objawy>ból płećów i kręgosłupa</objawy>
+			<objawy>ból pleców i kręgosłupa</objawy>
 			<rozpoznanie>reumatyzm</rozpoznanie>
 			<zalecenia>ćwiczenia podnoszące sprawność fizyczną, pobyt w sanatorium</zalecenia>
 			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
