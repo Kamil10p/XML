@@ -2,11 +2,11 @@
 <?xml-stylesheet href="1zadanie.css"?>
 <!DOCTYPE plik [
 <!ELEMENT plik (informacje_o_pliku,przychodnia)> 
-<!ELEMENT informacje_o_pliku (opis_zawartości,autor+,data_modyfikacji,osoba_modyfikujaca)> 
+<!ELEMENT informacje_o_pliku (opis_zawartości,autor+,data_modyfikacji,osoba_modyfikująca)> 
 <!ELEMENT opis_zawartości (#PCDATA)> 
 <!ELEMENT autor (#PCDATA)> 
 <!ELEMENT data_modyfikacji (#PCDATA)> 
-<!ELEMENT osoba_modyfikujaca (#PCDATA)> 
+<!ELEMENT osoba_modyfikująca (#PCDATA)> 
 <!ELEMENT przychodnia (wizyty,baza_danych)>
 
  
@@ -52,7 +52,7 @@
 	<autor>Dawid Pytka</autor>
 	<autor>Kamil Piątkowski</autor>
 	<data_modyfikacji>09.10.2018</data_modyfikacji>
-	<osoba_modyfikujaca>Kamil Piątkowski</osoba_modyfikujaca>
+	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
 	
 </informacje_o_pliku>
 <przychodnia>
