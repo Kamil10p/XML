@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="przychodnia">
+<xs:key name="unikalny_nr_wizyty">
+	<xs:selector xpath="plik/wizyty/wizyta"/>
+	<xs:field xpath="@numer"/>
+</xs:key>
+</xs:element>
+	
+<xs:simpleType name="typ_data">
+<xs:restriction base="xs:date">
+<xs:minInclusive value="1939-01-01"/>
+<xs:maxInclusive value="2028-01-01"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="krotki_tekst">
+<xs:restriction base="xs:string">
+<xs:minLength value="1"/>
+<xs:maxLength value="99"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:group name="dodatkowe_informacje">
+<xs:sequence>
+<xs:element name="alergie" type="xs:string"/>
+<xs:element name="przebyte_choroby" type="xs:string"/>
+<xs:element name="szczepienia" type="xs:string"/>
+<xs:element name="grupa_krwi" type="xs:string"/>
+<xs:element name="przyjmowane_obecnie_leki" type="xs:string"/>
+</xs:sequence>
+</xs:group>
+
+
+
+
+
+
 <xs:element name="plik">
 <xs:complexType> 
 <xs:sequence>
@@ -8,8 +45,10 @@
 <xs:sequence>
 <xs:element name="opis_zawartości" type="xs:string"/>
 <xs:element name="autor" type="xs:string"/>
+<xs:element name="autor1" type="xs:string"/>
 <xs:element name="data_modyfikacji" type="xs:date"/>
 <xs:element name="osoba_modyfikująca" type="xs:string"/>
+
 </xs:sequence>
 </xs:complexType>
 </xs:element>
@@ -20,14 +59,23 @@
 <xs:element name="wizyty">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="wizyta">
+<xs:element name="wizyta" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="data_wizyty" type="xs:date"/>
-<xs:element name="objawy" type="xs:string"/>
-<xs:element name="rozpoznanie" type="xs:string"/>
-<xs:element name="zalecenia" type="xs:string"/>
-<xs:element name="data_kolejnej_wizyty" type="xs:string"/>
+<xs:element name="data_wizyty" type="typ_data"/>
+<xs:element name="objawy" type="krotki_tekst"/>
+<xs:element name="rozpoznanie" type="krotki_tekst"/>
+<xs:element name="zalecenia" type="krotki_tekst"/>
+
+
+<xs:element name="data_kolejnej_wizyty" >
+<xs:simpleType>
+<xs:union memberTypes="xs:string typ_data"/>
+</xs:simpleType>
+</xs:element>
+
+
+
 </xs:sequence>
 <xs:attribute name="numer" type="xs:positiveInteger" use="required"/>
 <xs:attribute name="numer_id_pacjenta" type="xs:positiveInteger" use="required"/>
@@ -44,7 +92,7 @@
 <xs:element name="karty_pacjentów">
 <xs:complexType>
 <xs:sequence>
-<xs:element name="karta_pacjenta">
+<xs:element name="karta_pacjenta" maxOccurs="unbounded">
 <xs:complexType>
 <xs:sequence>
 
@@ -75,12 +123,9 @@
 </xs:sequence>
 </xs:complexType>
 </xs:element>
+<xs:group ref="dodatkowe_informacje"/>
 
-<xs:element name="alergie" type="xs:string"/>
-<xs:element name="przebyte_choroby" type="xs:string"/>
-<xs:element name="szczepienia" type="xs:string"/>
-<xs:element name="grupa_krwi" type="xs:string"/>
-<xs:element name="przyjmowane_obecnie_leki" type="xs:string"/>
+
 
 </xs:sequence>
 <xs:attribute name="numer_id" type="xs:positiveInteger" use="required"/>

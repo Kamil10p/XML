@@ -5,6 +5,7 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 <informacje_o_pliku>
 	<opis_zawartości>SYSTEM PRZYCHODNI</opis_zawartości>
 	<autor>Dawid Pytka</autor>
+	<autor1>Kamil Piątkowski</autor1>
 	<data_modyfikacji>2018-10-10</data_modyfikacji>
 	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
 	
@@ -16,14 +17,14 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>gorączka,katar,osłabienie</objawy>
 			<rozpoznanie>grypa</rozpoznanie>
 			<zalecenia>witamina C, zwolnienie lekarskie z pracy,ambrosol</zalecenia>
-			<data_kolejnej_wizyty>01-09-1939</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
-<wizyta numer="2" numer_id_pacjenta="2">
+<wizyta numer="1" numer_id_pacjenta="2">
 			<data_wizyty>2018-10-01</data_wizyty>
 			<objawy>ból w prawy oku, osłabione widzenie</objawy>
 			<rozpoznanie>jęczmień pod okiem</rozpoznanie>
 			<zalecenia>okłady z ziela świetlika 3 razy dziennie</zalecenia>
-			<data_kolejnej_wizyty>1939-01-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="3" numer_id_pacjenta="3">
 			<data_wizyty>2018-10-01</data_wizyty>
@@ -44,14 +45,14 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>swędzenie skóry głowy, poruszanie się czegoś po włosach</objawy>
 			<rozpoznanie>wszy</rozpoznanie>
 			<zalecenia>szampon Seboradin Med 2 razy dziennie </zalecenia>
-			<data_kolejnej_wizyty>1939-09-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="6" numer_id_pacjenta="6">
 			<data_wizyty>2018-10-03</data_wizyty>
 			<objawy>ostry ból gardła, gorączka, powiększone migdałki</objawy>
 			<rozpoznanie>angina</rozpoznanie>
 			<zalecenia>Augmentin dwa razy dziennie po 1 tabletce </zalecenia>
-			<data_kolejnej_wizyty>1939-09-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="7" numer_id_pacjenta="2">
 			<data_wizyty>2018-10-15</data_wizyty>
@@ -100,7 +101,7 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>zdiagnozowany dnia 01-10-2018 czyrak prawego ucha</objawy>
 			<rozpoznanie>czyrak prawego ucha</rozpoznanie>
 			<zalecenia>kontynuowanie stosowanie okładów ichtiolowych</zalecenia>
-			<data_kolejnej_wizyty>1939-01-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="14" numer_id_pacjenta="5">
 			<data_wizyty>2018-10-25</data_wizyty>
@@ -121,14 +122,14 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>podwyższony poziom glukozy we krwi</objawy>
 			<rozpoznanie>cukrzyca</rozpoznanie>
 			<zalecenia>zastrzyki z insuliną raz dziennie</zalecenia>
-			<data_kolejnej_wizyty>1939-09-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="17" numer_id_pacjenta="2">
 			<data_wizyty>2018-10-25</data_wizyty>
 			<objawy>opuchnięte oczy, światłowstręt, przekrwienie spojówkowe</objawy>
 			<rozpoznanie>zapalenie spojówek</rozpoznanie>
 			<zalecenia>przestrzegać zasad higieny, często myć dłonie, nie pocierać oczu, stosować zimne okłady</zalecenia>
-			<data_kolejnej_wizyty>1939-01-09</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="18" numer_id_pacjenta="3">
 			<data_wizyty>2018-10-26</data_wizyty>
@@ -156,7 +157,7 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>ból pleców i kręgosłupa</objawy>
 			<rozpoznanie>reumatyzm</rozpoznanie>
 			<zalecenia>ćwiczenia podnoszące sprawność fizyczną, pobyt w sanatorium</zalecenia>
-			<data_kolejnej_wizyty>1939-09-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 <wizyta numer="22" numer_id_pacjenta="2">
 			<data_wizyty>2018-11-04</data_wizyty>
@@ -177,7 +178,7 @@ xsi:noNamespaceSchemaLocation="2zadanie.xsd">
 			<objawy>wymioty, silny ból brzucha, jadłowstręt,biegunka</objawy>
 			<rozpoznanie>zatrucie pokarmowe</rozpoznanie>
 			<zalecenia>uzupełnianie płynów,węgiel aktywny 1 tabletka 3 razy dziennie </zalecenia>
-			<data_kolejnej_wizyty>1939-09-01</data_kolejnej_wizyty>
+			<data_kolejnej_wizyty>brak</data_kolejnej_wizyty>
 </wizyta>
 
 </wizyty>
