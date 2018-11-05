@@ -4,9 +4,6 @@ targetNamespace="http://www.piatpyt.org/2zadanie"
 xmlns:nasza="http://www.piatpyt.org/2zadanie" 
 elementFormDefault="unqualified">
 
-<xs:element name="addresses">
-<xs:complexType>
-<xs:sequence>
 <xs:element name="plik">
 <xs:complexType> 
 <xs:sequence>
@@ -123,9 +120,6 @@ elementFormDefault="unqualified">
 <xs:selector xpath="./wizyty/wizyta"/>
 <xs:field xpath="@numer"/>
 </xs:key>
-</xs:element>
-</xs:sequence>
-</xs:complexType>
 </xs:element>
 
 

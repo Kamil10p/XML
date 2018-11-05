@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="2zadanie.css"?>
-<nasza:addresses xmlns:nasza="http://www.piatpyt.org/2zadanie"
+<nasza:plik xmlns:nasza="http://www.piatpyt.org/2zadanie"
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation="http://www.piatpyt.org/2zadanie 2zadanie.xsd ">
-<plik>
 <informacje_o_pliku>
 	<opis_zawartości>SYSTEM PRZYCHODNI</opis_zawartości>
 	<autor>Dawid Pytka</autor>
@@ -343,5 +342,4 @@
 </karty_pacjentów>
 </baza_danych>
 </przychodnia>
-</plik>
-</nasza:addresses>
+</nasza:plik>
