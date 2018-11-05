@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="2zadanie.css"?>
 <nasza:addresses xmlns:nasza="http://www.piatpyt.org/2zadanie"
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation="http://www.piatpyt.org/2zadanie 2zadanie.xsd ">
@@ -6,7 +7,7 @@
 <informacje_o_pliku>
 	<opis_zawartości>SYSTEM PRZYCHODNI</opis_zawartości>
 	<autor>Dawid Pytka</autor>
-	<autor1>Kamil Piątkowski</autor1>
+	<autor>Kamil Piątkowski</autor>
 	<data_modyfikacji>2018-10-10</data_modyfikacji>
 	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
 	
