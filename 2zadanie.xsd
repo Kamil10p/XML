@@ -75,11 +75,11 @@ elementFormDefault="unqualified">
 <xs:element name="nazwisko" type="xs:string"/>
 <xs:element name="imię" type="xs:string"/>
 </xs:sequence>
-<xs:attribute name="płeć" type="xs:string" use="required"/>
+<xs:attribute name="płeć" type="nasza:typ_płeć" use="required"/>
 </xs:complexType>
 </xs:element>
 
-<xs:element name="wiek" type="xs:positiveInteger"/>
+<xs:element name="wiek" type="nasza:typ_wiek"/>
 <xs:element name="numer_tel" type="nasza:typNr_tel"/>
 
 <xs:element name="adres">
@@ -154,6 +154,33 @@ elementFormDefault="unqualified">
 </xs:restriction>
 </xs:simpleType>
 
+<xs:simpleType name="typ_płeć">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="M"/>
+    <xs:enumeration value="K"/>
+  </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="typ_wiek">
+<xs:restriction base="xs:positiveInteger">
+<xs:minInclusive value="1"/>
+<xs:maxInclusive value="120"/>
+</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="typ_grupa_krwi">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="A Rh+"/>
+    <xs:enumeration value="B Rh+"/>
+    <xs:enumeration value="AB Rh+"/>
+    <xs:enumeration value="0 Rh+"/>
+    <xs:enumeration value="A Rh-"/>
+    <xs:enumeration value="B Rh-"/>
+    <xs:enumeration value="AB Rh-"/>
+    <xs:enumeration value="0 Rh-"/>
+  </xs:restriction>
+</xs:simpleType>
+
 <xs:simpleType name="krotki_tekst">
 <xs:restriction base="xs:string">
 <xs:minLength value="1"/>
@@ -166,8 +193,9 @@ elementFormDefault="unqualified">
 <xs:element name="alergie" type="xs:string"/>
 <xs:element name="przebyte_choroby" type="xs:string"/>
 <xs:element name="szczepienia" type="xs:string"/>
-<xs:element name="grupa_krwi" type="xs:string"/>
+<xs:element name="grupa_krwi" type="nasza:typ_grupa_krwi"/>
 <xs:element name="przyjmowane_obecnie_leki" type="xs:string"/>
 </xs:sequence>
 </xs:group>
+
 </xs:schema>

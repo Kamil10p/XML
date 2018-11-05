@@ -192,7 +192,7 @@
 		<imię>Jan</imię>
 	</dane_personalne>
 	<wiek>40</wiek>
-	<numer_tel>789456123</numer_tel>
+	<numer_tel>747125926</numer_tel>
     <adres>
         <kraj>Polska</kraj>
         <miasto>Łódź</miasto>
@@ -203,7 +203,7 @@
 		<alergie>brak</alergie>
 		<przebyte_choroby>odra</przebyte_choroby>
 		<szczepienia>świnka, rzerzączka</szczepienia>
-		<grupa_krwi>A</grupa_krwi>
+		<grupa_krwi>A Rh+</grupa_krwi>
 		<przyjmowane_obecnie_leki>Accuzide</przyjmowane_obecnie_leki>
         
 </karta_pacjenta>
@@ -213,7 +213,7 @@
 		<nazwisko>Kowalski</nazwisko>
 		<imię>Piotr</imię>
 	</dane_personalne>
-	<wiek>23</wiek>
+	<wiek>17</wiek>
 	<numer_tel>785661223</numer_tel>
     <adres>
         <kraj>Polska</kraj>
