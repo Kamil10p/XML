@@ -11,7 +11,7 @@ elementFormDefault="unqualified">
 <xs:complexType>
 <xs:sequence>
 <xs:element name="opis_zawartości" type="xs:string"/>
-<xs:element name="autor" type="xs:string" minOccurs="0" maxOccurs="2"/>
+<xs:element name="autor" type="xs:string" minOccurs="1" maxOccurs="2"/>
 <xs:element name="data_modyfikacji" type="xs:date"/>
 <xs:element name="osoba_modyfikująca" type="xs:string"/>
 
