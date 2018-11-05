@@ -80,14 +80,14 @@ elementFormDefault="unqualified">
 </xs:element>
 
 <xs:element name="wiek" type="xs:positiveInteger"/>
-<xs:element name="numer_tel" type="xs:positiveInteger"/>
+<xs:element name="numer_tel" type="nasza:typNr_tel"/>
 
 <xs:element name="adres">
 <xs:complexType>
 <xs:sequence>
 <xs:element name="kraj" type="xs:string"/>
 <xs:element name="miasto" type="xs:string"/>
-<xs:element name="kod_pocztowy" type="xs:string"/>
+<xs:element name="kod_pocztowy" type="nasza:typKod_pocztowy"/>
 <xs:element name="ulica" type="xs:string"/>
 <xs:element name="nr_mieszkania" type="xs:positiveInteger"/>
 </xs:sequence>
@@ -129,13 +129,24 @@ elementFormDefault="unqualified">
 </xs:complexType>
 </xs:element>
 
-<xs:element name="przychodnia">
-<xs:key name="unikalny_nr_wizyty">
-	<xs:selector xpath="plik/wizyty/wizyta"/>
-	<xs:field xpath="@numer"/>
-</xs:key>
-</xs:element>
-	
+
+
+<xs:simpleType name="typNr_tel">
+<xs:restriction base="xs:integer">
+<xs:pattern value="\d{9}"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="typKod_pocztowy" >
+<xs:restriction base="xs:string">
+<xs:pattern value="\d{2}-\d{3}"/>
+</xs:restriction>
+</xs:simpleType>
+
+
+
+
 <xs:simpleType name="typ_data">
 <xs:restriction base="xs:date">
 <xs:minInclusive value="1939-01-01"/>
@@ -159,8 +170,4 @@ elementFormDefault="unqualified">
 <xs:element name="przyjmowane_obecnie_leki" type="xs:string"/>
 </xs:sequence>
 </xs:group>
-
-
-
-
 </xs:schema>
