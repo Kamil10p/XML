@@ -9,6 +9,7 @@
 <h2 class="headcenter">RAPORT</h2>
 
 <xsl:for-each select="/przychodnia/baza_danych/karty_pacjentów/karta_pacjenta">
+<xsl:variable name="id_pacjenta" select="@numer_id" />
 <table border="1">
     <tr bgcolor="#9acd32">
       <th>ID</th>
@@ -20,7 +21,7 @@
       <td><xsl:value-of select="numer_ubezpieczenia"/></td>
       <td><xsl:value-of select="dane_personalne"/></td> 
       <td><xsl:value-of select="wiek"/></td> 
-      <td><xsl:value-of select="count(//przychodnia/wizyty/wizyta/@numer_id_pacjenta[.='p1'])"/></td>
+      <td><xsl:value-of select="count(//przychodnia/wizyty/wizyta/@numer_id_pacjenta[.=$id_pacjenta])"/></td>
    
     </tr>
     </table>
@@ -34,7 +35,7 @@
 	  
     </tr>
     <xsl:for-each select="/przychodnia/wizyty/wizyta">
-    <xsl:if test="@numer_id_pacjenta='p1'">
+    <xsl:if test="@numer_id_pacjenta=$id_pacjenta">
     <tr>
       <td><xsl:value-of select="data_wizyty"/></td>
       <td><xsl:value-of select="objawy"/></td>
