@@ -16,6 +16,7 @@
 	  <th>Data kolejnej wizyty</th>
     </tr>
     <xsl:for-each select="przychodnia/wizyty/wizyta">
+    <xsl:if test="@numer_id_pacjenta='p1'">
     <tr>
       <td><xsl:value-of select="data_wizyty"/></td>
       <td><xsl:value-of select="objawy"/></td>
@@ -23,6 +24,7 @@
 	  <td><xsl:value-of select="zalecenia"/></td>
 	  <td><xsl:value-of select="data_kolejnej_wizyty"/></td>
     </tr>
+    </xsl:if>
     </xsl:for-each>
 </table>
 <h2 class="headcenter">Karty Pacjentów</h2>
