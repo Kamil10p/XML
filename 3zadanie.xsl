@@ -1,6 +1,9 @@
-<?xml version="1.0"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-<xsl:template match="/">
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" >
+
+
+	<xsl:template match="/">
+	<plik>
 <informacje_o_pliku>
 	<opis_zawartości>SYSTEM PRZYCHODNI - RAPORT</opis_zawartości>
 	<autor>Dawid Pytka</autor>
@@ -9,35 +12,36 @@
 	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
 </informacje_o_pliku>
 <przychodnia>
-<xsl:for-each select="/przychodnia/baza_danych/karty_pacjentów/karta_pacjenta">
+<xsl:for-each select="/plik/przychodnia/baza_danych/karty_pacjentów/karta_pacjenta">
 <xsl:variable name="id_pacjenta" select="@numer_id" />
 <baza_danych>
 <karty_pacjentów>
+    <karta_pacjenta>
 	<numer_ubezpieczenia><xsl:value-of select="numer_ubezpieczenia"/></numer_ubezpieczenia>
-	<dane_personalne płeć="M">
+	<dane_personalne>
 		<nazwisko><xsl:value-of select="dane_personalne/nazwisko"/></nazwisko>
 		<imię><xsl:value-of select="dane_personalne/imie"/></imię>
 	</dane_personalne>
 	<wiek><xsl:value-of select="wiek"/></wiek>
+    </karta_pacjenta>
 </karty_pacjentów>
 </baza_danych>
 <wizyty>
-    <xsl:for-each select="/przychodnia/wizyty/wizyta">
+    <xsl:for-each select="/plik/przychodnia/wizyty/wizyta">
     <xsl:if test="@numer_id_pacjenta=$id_pacjenta">
-    <tr>
-      <td><xsl:value-of select="data_wizyty"/></td>
-      <td><xsl:value-of select="objawy"/></td>
-	  <td><xsl:value-of select="rozpoznanie"/></td>
-	  <td><xsl:value-of select="zalecenia"/></td>
-	  
-    </tr>
+        <wizyta>
+            <data_wizyty><xsl:value-of select="data_wizyty"/></data_wizyty>
+            <objawy><xsl:value-of select="objawy"/></objawy>
+            <rozpoznanie><xsl:value-of select="rozpoznanie"/></rozpoznanie>
+            <zalecenia><xsl:value-of select="zalecenia"/></zalecenia>
+        </wizyta>
     </xsl:if>
     </xsl:for-each>
 </wizyty>
 
 </xsl:for-each>
 </przychodnia>
-
+	</plik>
 </xsl:template>
 
 </xsl:stylesheet>
