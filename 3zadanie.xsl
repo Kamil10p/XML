@@ -16,7 +16,7 @@
 <xsl:variable name="id_pacjenta" select="@numer_id" />
 <baza_danych>
 <karty_pacjentów>
-    <karta_pacjenta>
+    <karta_pacjenta numer_id="{@numer_id}">
 	<numer_ubezpieczenia><xsl:value-of select="numer_ubezpieczenia"/></numer_ubezpieczenia>
 	<dane_personalne>
 		<nazwisko><xsl:value-of select="dane_personalne/nazwisko"/></nazwisko>
@@ -29,7 +29,7 @@
 <wizyty>
     <xsl:for-each select="/plik/przychodnia/wizyty/wizyta">
     <xsl:if test="@numer_id_pacjenta=$id_pacjenta">
-        <wizyta>
+        <wizyta numer="{@numer}" numer_id_pacjenta="{@numer_id_pacjenta}">
             <data_wizyty><xsl:value-of select="data_wizyty"/></data_wizyty>
             <objawy><xsl:value-of select="objawy"/></objawy>
             <rozpoznanie><xsl:value-of select="rozpoznanie"/></rozpoznanie>
