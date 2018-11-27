@@ -3,19 +3,9 @@
 
 
 	<xsl:template match="/">
-	<plik>
-<informacje_o_pliku>
-	<opis_zawartości>SYSTEM PRZYCHODNI - RAPORT</opis_zawartości>
-	<autor>Dawid Pytka</autor>
-	<autor>Kamil Piątkowski</autor>
-	<data_modyfikacji>09.10.2018</data_modyfikacji>
-	<osoba_modyfikująca>Kamil Piątkowski</osoba_modyfikująca>
-</informacje_o_pliku>
 <przychodnia>
 <xsl:for-each select="/plik/przychodnia/baza_danych/karty_pacjentów/karta_pacjenta">
 <xsl:variable name="id_pacjenta" select="@numer_id" />
-<baza_danych>
-<karty_pacjentów>
     <karta_pacjenta numer_id="{@numer_id}">
 	<numer_ubezpieczenia><xsl:value-of select="numer_ubezpieczenia"/></numer_ubezpieczenia>
 	<dane_personalne>
@@ -24,8 +14,6 @@
 	</dane_personalne>
 	<wiek><xsl:value-of select="wiek"/></wiek>
     </karta_pacjenta>
-</karty_pacjentów>
-</baza_danych>
 <wizyty>
     <xsl:for-each select="/plik/przychodnia/wizyty/wizyta">
     <xsl:if test="@numer_id_pacjenta=$id_pacjenta">
@@ -41,7 +29,6 @@
 
 </xsl:for-each>
 </przychodnia>
-	</plik>
 </xsl:template>
 
 </xsl:stylesheet>
