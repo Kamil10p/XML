@@ -5,11 +5,18 @@
         <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl">
             <head>
                 <title>Raport</title>
-                <link rel="stylesheet" type="text/css" href="raporcik.css"></link>
+                <link rel="stylesheet" type="text/css" href="3zadanie.css"></link>
             </head>
             <body>
                 <h2>RAPORT</h2>
-
+                <table class="data">
+                    <tr>
+                        <th>Data wygenerowania raportu</th>
+                    </tr>
+                    <tr>
+                        <td><xsl:value-of select="//przychodnia/data_wygenerowania_raportu"/></td>
+                    </tr>
+                </table>
                 <xsl:for-each select="//przychodnia/karta_pacjenta">
                     <xsl:variable name="id_pacjenta" select="@numer_id" />
                     <table class="pacjent">

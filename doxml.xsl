@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" >
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" >
 
 
 	<xsl:template match="/">
@@ -33,6 +33,7 @@
     <powyzej_50><xsl:value-of select="count(//przychodnia/baza_danych/karty_pacjentów/karta_pacjenta/wiek[. &gt; 50])"/></powyzej_50>
     <ile_mężczyzn><xsl:value-of select="count(//przychodnia/baza_danych/karty_pacjentów/karta_pacjenta/dane_personalne/@płeć[.= 'M'])"/></ile_mężczyzn>
     <ile_kobiet><xsl:value-of select="count(//przychodnia/baza_danych/karty_pacjentów/karta_pacjenta/dane_personalne/@płeć[.= 'K'])"/></ile_kobiet>
+    <data_wygenerowania_raportu><xsl:value-of select="current-dateTime()"/></data_wygenerowania_raportu>
 </przychodnia>
 </xsl:template>
 

@@ -2,6 +2,13 @@
 	font-style: italic;
 	text-align:center;
 }
+.data{
+	margin-bottom: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+
+}
 .wizyty{display:table;	
 	width:100%;
 line-height:1.3;
