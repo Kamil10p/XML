@@ -26,11 +26,11 @@
                             <th>Wiek</th>
                             <th>Ilość wizyt</th>
                         </tr>
-                        <tr align="center">
+                        <tr>
                             <td><xsl:value-of select="numer_ubezpieczenia"/></td>
                             <td><xsl:value-of select="dane_personalne"/></td>
                             <td><xsl:value-of select="wiek"/></td>
-                            <td><xsl:value-of select="count(//przychodnia/wizyty/wizyta/@numer_id_pacjenta[.=$id_pacjenta])"/></td>
+                            <td><xsl:value-of select="count(//przychodnia/karta_pacjenta/wizyty/wizyta/@numer_id_pacjenta[.=$id_pacjenta])"/></td>
 
                         </tr>
                     </table>
@@ -43,7 +43,7 @@
                             <th>Zalecenia</th>
 
                         </tr>
-                        <xsl:for-each select="//przychodnia/wizyty/wizyta">
+                        <xsl:for-each select="//przychodnia/karta_pacjenta/wizyty/wizyta">
                             <xsl:if test="@numer_id_pacjenta=$id_pacjenta">
                                 <tr>
                                     <td><xsl:value-of select="data_wizyty"/></td>
@@ -59,19 +59,25 @@
 
 
                 <h2>PODSUMOWANIE</h2>
-                <table>
+                <table class="podsumowanie">
                     <tr>
-                        <th>ile pacjentów mamy?</th>
-                        <th>Ile wizyt łącznie</th>
-                        <th>ile osób powyżej 50 lat ?</th>
-                        <th>ile mężczyzn?</th>
-                        <th>ile kobiet?</th>
+                        <th>Liczba pacjentów</th>
+                        <th>Łączna liczba wizyt</th>
+                        <th>Średnia liczba wizyt</th>
+                        <th>Średnia wieku pacjentów</th>
+                        <th>Liczba osób powyżej 50 lat</th>
+                        <th>Liczba mężczyzn</th>
+                        <th>Liczba kobiet</th>
+
+
 
 
                     </tr>
                     <tr>
                         <td><xsl:value-of select="//przychodnia/ilosc_pacjentow"/></td>
                         <td><xsl:value-of select="//przychodnia/ilosc_wizyt_pacjentow"/></td>
+                        <td><xsl:value-of select="//przychodnia/srednia_ilosc_wizyt"/></td>
+                        <td><xsl:value-of select="//przychodnia/srednia_wieku"/></td>
                         <td><xsl:value-of select="//przychodnia/powyzej_50"/></td>
                         <td><xsl:value-of select="//przychodnia/ile_mężczyzn"/></td>
                         <td><xsl:value-of select="//przychodnia/ile_kobiet"/></td>
