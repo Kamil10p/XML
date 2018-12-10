@@ -1,0 +1,68 @@
+---------Authors--------- 
+Dawid Pytka
+Kamil Piatkowski
+ 
+ 
+Date raport: 2018-12-10T20:04:44.415Z
+---------Przychodnia--------- 
+Pacjent(imie, nazwisko,wiek, id):Jan | Nowak | 40 lat | p1 |
+Ilość wizyt: 4
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+01-10-2018     gorączka,katar,osłabienie                                         grypa                              witamina C, zwolnienie lekarskie z pracy,ambrosol 
+18-10-2018     duszność, kołatanie serca                                         nadciśnienie                        aldosteron raz dziennie 1 tabletka, zmiana stylu życia m.in rzucenie palenia papierosów 
+25-10-2018     podwyższony poziom glukozy we krwi                                cukrzyca                           zastrzyki z insuliną raz dziennie 
+10-11-2018     szmery w płucach, osłabienie, silny suchy kaszel                  bakteryjne zapalenie płuc          odpoczynek, Sarabin 2 tabletki dziennie (rano i wieczorem) 
+
+Pacjent(imie, nazwisko,wiek, id):Piotr | Kowalski | 23 lat | p2 |
+Ilość wizyt: 4
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+01-10-2018     ból w prawy oku, osłabione widzenie                               jęczmień pod okiem                 okłady z ziela świetlika 3 razy dziennie 
+15-10-2018     nienaturalny kształt kości piszczelowej, ból w nodze              złamanie kości piszczelowej        gips przez 3 tygodnie, leki przeciwbólowe  
+25-10-2018     opuchnięte oczy, światłowstręt, przekrwienie spojówkowe           zapalenie spojówek                 przestrzegać zasad higieny, często myć dłonie, nie pocierać oczu, stosować zimne okłady 
+04-11-2018     silny ból ucha, upośledzenie słuchu                               ostre zapalenie ucha środkowego    skierowanie do szpitala na zabieg nacięcie błony bębenkowej 
+
+Pacjent(imie, nazwisko,wiek, id):Janina | Gumowska | 67 lat | p3 |
+Ilość wizyt: 5
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+01-10-2018     ból ucha, wysoka gorączka                                         czyrak prawego ucha                okłady ichtiolowe, antybiotyk flukloksacyklina 2 razy dziennie po 1 tabletce 
+19-10-2018     ostry ból w nadbrzuszu, zaparcie                                  zapalenie wyrostka robaczkowego    operacja w szpitalu  
+20-10-2018     zdiagnozowany dnia 01-10-2018 czyrak prawego ucha                 czyrak prawego ucha                kontynuowanie stosowanie okładów ichtiolowych 
+26-10-2018     dreszcze, niepokój, zwiotczenie mięśni, bardzo silny ból głowy    udar cieplny                       zapewniono dostęp do chłodnego powietrza, zastosowano okłady, podano płyny dożylnie 
+04-11-2018     ból pleców i kręgosłupa                                           reumatyzm                          ćwiczenia podnoszące sprawność fizyczną, pobyt w sanatorium 
+
+Pacjent(imie, nazwisko,wiek, id):Jolanta | Gryz | 45 lat | p4 |
+Ilość wizyt: 3
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+02-10-2018     duszność, sinica, przyśpieszony i spłycony oddech, apatia         gruźlica prosówkowa                Pyrazynamid doustnie 2 tabletki dziennie po jedzeniu, dużo odpoczynku 
+16-10-2018     wysypka skórna o charakterze pęcherzykowatym, uporczywy świąd     potnica                            testy alergiczne  
+27-10-2018     krew i limfa wyciekające z prawej dłoni                           rana cięta dłoni                   założenie szwów 
+
+Pacjent(imie, nazwisko,wiek, id):Józef | Sambor | 77 lat | p5 |
+Ilość wizyt: 3
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+02-10-2018     swędzenie skóry głowy, poruszanie się czegoś po włosach           wszy                              szampon Seboradin Med 2 razy dziennie  
+19-10-2018     częste oddawanie moczu                                            zakażenie układu moczowego         antybiotyk Alaks 1 tabletka raz dziennie 
+25-10-2018     rumień na prawej nodze,ból stawów, wysypka skórna                 borelioza                          antybiotyk Boreliozor przez 4 tyg, 3 tabletki dziennie 
+
+Pacjent(imie, nazwisko,wiek, id):Anna | Jabłczyńska | 35 lat | p6 |
+Ilość wizyt: 4
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+03-10-2018     ostry ból gardła, gorączka, powiększone migdałki                  angina                             Augmentin dwa razy dziennie po 1 tabletce  
+16-10-2018     pieczenie paznokci                                                grzybica paznokci                  amorolfina miejscowo 3 razy dziennie  
+25-10-2018     drżenie rąk, częste biegunki, bezsenność                          naczynność tarczycy                badanie poziomu TSH we krwi 
+27-10-2018     opuchnięte nogi, ból                                              zapalenie żył                      Apiksaban dożylnie dwa razy dziennie 
+
+Pacjent(imie, nazwisko,wiek, id):Zofia | Narczak | 42 lat | p7 |
+Ilość wizyt: 1
+Data Wizyty                 Objawy                                               Rozpoznanie                                             Zalecenia                                                              
+10-11-2018     wymioty, silny ból brzucha, jadłowstręt,biegunka                  zatrucie pokarmowe                 uzupełnianie płynów,węgiel aktywny 1 tabletka 3 razy dziennie  
+
+
+--------------Podsumowanie-------------- 
+Ilość wszystkich pacjentów: 7
+Ilość wszystkich wizyt: 24
+Ilość pacjentów powyżej 50 roku życia: 2
+Ilość mężczyzn w przychodni: 3
+Ilość kobiet w przychodni: 4
+Średni wieku: 47
+Średni ilość wizyt: 3.43
