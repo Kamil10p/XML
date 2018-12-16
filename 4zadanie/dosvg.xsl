@@ -4,9 +4,9 @@
     <xsl:output method="xml" indent="yes" standalone="no" doctype-public="-//W3C//DTD SVG 1.1//EN"
             doctype-system="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" media-type="image/svg" />
     <xsl:template match="/">
-        <xsl:variable name="ile_mezczyzn" select="//przychodnia/ile_mężczyzn"/>
+        <xsl:variable name="ile_mezczyzn" select="//przychodnia/ile_mezczyzn"/>
         <xsl:variable name="ile_kobiet" select="//przychodnia/ile_kobiet"/>
-        <xsl:variable name="mezczyzni" select="round(//przychodnia/ile_mężczyzn div //przychodnia/ilosc_pacjentow*360)" />
+        <xsl:variable name="mezczyzni" select="round(//przychodnia/ile_mezczyzn div //przychodnia/ilosc_pacjentow*360)" />
         <xsl:variable name="kobiety" select="round(//przychodnia/ile_kobiet div //przychodnia/ilosc_pacjentow*360)" />
         <svg width="1260" height="800" version="1.1" onload="circleGraph('kobiety',610, 245, 130, {$kobiety},-1);
        circleGraph('mezczyzni',610, 245, 130, {$mezczyzni},1);">
@@ -193,7 +193,7 @@ function wykres_wizyt(el, ilosc){
             <polyline points="500,751 500,505 490,517 500,505 510,517" style="fill:none;stroke:black;stroke-width:3" />
             </g>
             <g id="wizyty_kobiet">
-            <xsl:for-each select="//przychodnia/karta_pacjenta/@płeć[.= 'K']">
+            <xsl:for-each select="//przychodnia/karta_pacjenta/@plec[.= 'K']">
                 <xsl:sort select="../wiek"/>
                 <xsl:variable name="i" select="position()" />
                     <xsl:variable name="wysokosc" select='count(../wizyty/wizyta)*40'/>
@@ -205,7 +205,7 @@ function wykres_wizyt(el, ilosc){
             </xsl:for-each>
             </g>
             <g id="wizyty_mezczyzn">
-            <xsl:for-each select="//przychodnia/karta_pacjenta/@płeć[.= 'M']">
+            <xsl:for-each select="//przychodnia/karta_pacjenta/@plec[.= 'M']">
                 <xsl:sort select="../wiek"/>
                 <xsl:variable name="i" select="position()" />
                 <xsl:variable name="wysokosc" select='count(../wizyty/wizyta)*40'/>
