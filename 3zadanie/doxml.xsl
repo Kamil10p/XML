@@ -6,7 +6,7 @@
 <przychodnia>
 <xsl:for-each select="/plik/przychodnia/baza_danych/karty_pacjentów/karta_pacjenta">
 <xsl:variable name="id_pacjenta" select="@numer_id" />
-    <karta_pacjenta numer_id="{@numer_id}">
+    <karta_pacjenta numer_id="{@numer_id}" płeć="{dane_personalne/@płeć}">
 	<numer_ubezpieczenia><xsl:value-of select="numer_ubezpieczenia"/></numer_ubezpieczenia>
 	<dane_personalne>
 		<nazwisko><xsl:value-of select="dane_personalne/nazwisko"/></nazwisko>
