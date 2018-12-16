@@ -13,7 +13,7 @@
 <xsl:text>Date raport: </xsl:text><xsl:value-of select="substring(przychodnia/data_wygenerowania_raportu,1,30)"/><xsl:text>&#xa;</xsl:text>
 <xsl:text>---------Przychodnia--------- &#xa;</xsl:text>
 <xsl:for-each select="//przychodnia/karta_pacjenta">
- <xsl:value-of select="substring(concat('Pacjent(imie, nazwisko,wiek, id):',dane_personalne/imię,' | ',dane_personalne/nazwisko,' | ',wiek,' lat | ',@numer_id,' |'),1,200)"/> 
+ <xsl:value-of select="substring(concat('Pacjent(imie, nazwisko,wiek, id):',dane_personalne/imie,' | ',dane_personalne/nazwisko,' | ',wiek,' lat | ',@numer_id,' |'),1,200)"/> 
 <xsl:text>&#xa;</xsl:text>
 <xsl:value-of select="substring(concat('Ilość wizyt: ',ile_wizyt),1,50)"/>
 <xsl:text>&#xa;</xsl:text>
@@ -37,7 +37,7 @@
 <xsl:text>&#xa;</xsl:text>
 <xsl:value-of select="concat('Ilość pacjentów powyżej 50 roku życia: ', //przychodnia/powyzej_50)"/>
 <xsl:text>&#xa;</xsl:text>
-<xsl:value-of select="concat('Ilość mężczyzn w przychodni: ', //przychodnia/ile_mężczyzn)"/>
+<xsl:value-of select="concat('Ilość mężczyzn w przychodni: ', //przychodnia/ile_mezczyzn)"/>
 <xsl:text>&#xa;</xsl:text>
 <xsl:value-of select="concat('Ilość kobiet w przychodni: ', //przychodnia/ile_kobiet)"/>
 <xsl:text>&#xa;</xsl:text>
